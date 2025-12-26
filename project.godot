@@ -17,9 +17,16 @@ config/icon="uid://dkt17hq1qca55"
 
 [display]
 
-window/size/viewport_width=1920
-window/size/viewport_height=1080
+window/size/viewport_width=640
+window/size/viewport_height=360
 window/size/mode=3
 window/size/resizable=false
 window/size/borderless=true
+window/stretch/mode="viewport"
 mouse_cursor/custom_image="uid://dif20jjh2seiy"
+
+[rendering]
+
+textures/canvas_textures/default_texture_filter=0
+textures/lossless_compression/force_png=true
+2d/snap/snap_2d_transforms_to_pixel=true
